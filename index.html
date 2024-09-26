@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <!--
-	Stellar by HTML5 UP
+	Michael Greklek-McKeon Personal Webpage
+	Design is Stellar by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
@@ -35,9 +36,10 @@
 					<nav id="nav">
 						<ul>
 							<li><a href="#about" class="active">About Me</a></li>
-							<!-- <li><a href="#research">Research Highlights</a></li> -->
+							<li><a href="#research">Research Highlights</a></li>
 							<li><a href="#publications">Publications</a></li>
-							<!-- <li><a href="#outreach">Outreach & Service</a></li>  -->
+							<li><a href="#outreach">Outreach & Service</a></li>
+							<li><a href="#SCUBA">SCUBA</a></li>
 						</ul>
 					</nav>
 
@@ -55,9 +57,9 @@
 
 											I am a PhD Candidate in Planetary Sciences at Caltech. 
 											I work on the observational characterization of exoplanets with Professor <a href="https://www.heatherknutson.org/">Heather Knutson</a>.
-											My research interests include exoplanet detection, interior and atmospheric characterization, dynamics and tides, and host star radiation environments. 
+											My research interests include exoplanet detection, interior and atmospheric characterization, dynamics and tides, and host star radiation/activity. 
 											In my PhD thesis work, I have used <a href="https://en.wikipedia.org/wiki/Transit-timing_variation#:~:text=Transit%2Dtiming%20variation%20is%20a,small%20as%20that%20of%20Earth.">transit timing variations</a> 
-											and <a href="https://en.wikipedia.org/wiki/Doppler_spectroscopy">radial velocity observations</a> to measure planetary radii, masses, orbital eccentricities 
+											and <a href="https://en.wikipedia.org/wiki/Doppler_spectroscopy">radial velocity observations</a> to measure planetary radii, masses, orbital eccentricities, 
 											and tidal heat fluxes, and characterized the XUV flux of planet host stars. I hope to understand the true diversity of
 											compositions for small planets, and investigate their formation, evolution, and habitability. 
 											I work on this by combining observations with statistical analysis and dynamical modeling.
@@ -66,7 +68,7 @@
 											Previously, I worked as a <a href="https://science.gsfc.nasa.gov/674/swx_services/swx_services_list.html">space weather forecaster</a> at NASA Goddard Space Flight Center, 
 											where I monitored real-time solar wind conditions and eruptions to make predictions for 
 											impacts to NASA assets throughout the solar system. This work was exciting and fulfilling, 
-											especially when there were Coronal Mass Ejections headed straight for the Earth! <br /> <br />
+											especially when there were <a href="https://en.wikipedia.org/wiki/Coronal_mass_ejection">coronal mass ejections</a> headed straight for the Earth! <br /> <br />
 											
 											I received dual BS degrees in Physics and Astronomy with a minor in Planetary Science from the University of Maryland, College Park in 2019. 
 											I originally focused on plasma physics and heliophysics research, before switching to exoplanets. 
@@ -76,18 +78,97 @@
 									</div>
 									<span class="image"><img src="images/Telescope_headshot.jpg" width:50px alt="" /></span>
 								</div>
-								<center>Check out my CV to see more details about my research, service, teaching, mentorship, and outreach activities:
-								</center>
-								<ul class="actions special">
+								<ul class="actions">
 									<li><a href="CV_Sep_2024_website.pdf" class="button">CV</a></li>
 								</ul>
+							</section>
+
+						<!-- First Section -->
+							<section id="research" class="main special">
+								<header class="major">
+									<h2>Research Highlights</h2>
+								</header>
+								<div class="row">
+									<div class="col-6 col-12-xsmall">
+									  <article class="work-item">
+										<a href="https://arxiv.org/abs/2409.16374" class="image fit thumb"><img src="images/1266_Tidal_Heat_Flux_Fig.png" alt="" /></a>
+										<h3>Tidally Heated Sub-Neptunes in the TOI-1266 System</h3>
+										<p> 
+											I used extensive ground- and space-based transit follow-up combined with archival radial velocity 
+											observations of the TOI-1266 system to confirm the existence of a new exterior planet,
+											and to measure the planetary eccentricities and tidal heat fluxes.
+											I found that TOI-1266 b has a tidal heat flux > 100 times the volcanically active Jovian moon Io, 
+											which may be responsible for puffing up its radius compared to its outer neighbor TOI-1266 c. 
+											This work also identifies TOI-1266 c as a likely water-rich planet.
+										</p>
+									  </article>
+									  
+									  <article class="work-item">
+										<a href="https://ui.adsabs.harvard.edu/abs/2023AJ....165...48G/abstract" class="image fit thumb"><img src="images/Kepler289_fig.jpg" alt="" /></a>
+										<h3>Constraints on Planet Formation from TTVs in the Kepler-289 System</h3>
+										<p> I used transit timing variations to improve the mass measurements for the three planets in the Kepler-289 system,
+											which contains two inner rocky planets and an outer gas giant near the 1:2:4 Laplace <a href="https://en.wikipedia.org/wiki/Orbital_resonance ">orbital resonance</a>.
+											By measuring the masses of the inner two rocky planets, we can place a lower limit on the amount
+											of solid material delivered to the inner protoplanetary disk. This constrains the formation location of the outer gas giant 
+											planet much further out than its current location, indicative of planetary migration.
+										</p>
+									  </article>
+
+									  <article class="work-item">
+										<a href="https://ui.adsabs.harvard.edu/abs/2019AJ....157...77G/abstract" class="image fit thumb"><img src="images/Killing_Planets_Figure.png" alt="" /></a>
+										<h3>Invalidating Planet Candidates from K2</h3>
+										<p> In my undergraduate thesis work, I inspected transit photometry from the K2 mission and identified several planet candidates 
+											that exhibited secondary eclipses. Calculating the implied brightness temperature of these objects
+											from their secondary eclipse depths revealed that they are too hot to be planets, and are instead consistent
+											with blended eclipsing binary stars.
+										</p>
+									  </article>
+									
+									</div>
+									
+									<div class="col-6 col-12-xsmall">
+									  <article class="work-item">
+										<a href="https://zenodo.org/records/13123153" class="image fit thumb"><img src="images/TTV_Survey_Fig.png" alt="" /></a>
+										<h3>A Survey of Bulk Compositions for Small Planets around M Stars</h3>
+										<p> I am conducting a survey of small planets (< 3 Earth radii) in multi-planet systems
+											around M stars, using transit timing variations and radial velocity observations
+											to better constrain the planetary bulk densities and compositions.
+											Improved mass and radius measurements allow us to 
+											better understand the formation and evolution of these terrestrial exoplanets, 
+											and identify top candidates for atmospheric characterization. Stay tuned for future papers on more systems coming soon!</p>
+									  </article>
+									  
+									  <article class="work-item">
+										<a class="image fit thumb"><img src="images/XMM-Newton.png" alt="" /></a>
+										<h3>Characterizing the Radiation Environments of Rocky Planets</h3>
+										<p>I am the PI of two ongoing XMM-Newton space telescope programs to observe
+											the X-ray and far ultraviolet flux of nearby M dwarf stars. These stars each host multiple 
+											small planets spanning the radius valley from rocky super-Earths to volatile-rich
+											mini-Neptunes, allowing us to assess the comparative impact of stellar irradiation on exoplanet atmospheres.
+										</p>
+									  </article>
+
+									  <article class="work-item">
+										<a href="https://ui.adsabs.harvard.edu/abs/2019FrASS...6...69P/abstract" class="image fit thumb"><img src="images/Electron_Beam_Shcematic.jpg" alt="" /></a>
+										<h3>Mapping the Earth's Magnetosphere with Relativistic Electron Beams</h3>
+										<p> How does the Earth's magnetic field respond to changes in solar wind conditions? 
+											How quickly does it bounce back after being hit by a coronal mass ejection? 
+											These questions can be answered by precisely tracking the Earth's magnetic field lines under 
+											changing conditions, and one way to do that is by launching charged particles at Earth from an orbiting 
+											satellite to create localized aurora that can be tracked from the ground. I modeled how this process works at the 
+											Princeton Plasma Physics Laboratory. If you are a billionaire interested in creating your own personalized 
+											aurora (during quiet solar wind conditions), please get in touch!!
+										</p>
+									  </article>
+									  
+									</div>
 							</section>
 
 						<!-- Second Section -->
 							<section id="publications" class="main special">
 								<header class="major">
 									<h2>Publications</h2>
-									<p>See my full list of publications at the links below</p>
+									<p>Check out my full list of publications at the links below</p>
 								</header>
 								<!-- 
 								<ul class="statistics">
@@ -122,6 +203,108 @@
 									</ul>
 								</footer>
 							</section>
+
+						<!-- Third Section -->
+							<section id="outreach" class="main special">
+								<header class="major">
+									<h2>Outreach & Service</h2>
+								</header>
+
+								<div class="row">
+									<div class="col-6 col-12-xsmall">
+									  <article class="work-item">
+										<a href="https://go-outdoors.caltech.edu/" class="image fit thumb"><img src="images/Logo_GOOudoors.png" alt="" /></a>
+										<h3>Outreach</h3>
+										<p>I greatly enjoy contributing to and participating in accessible, inclusive, sustainable community outreach programs. 
+											Through Caltech's <a href="https://go-outdoors.caltech.edu/">GO-Outdoors program</a>, I've developed interactive lesson plans for space science topics 
+											in the Next Generation Science Standards and implemented them for several middle school classes, and volunteered 
+											in other teacher-requested activities which have brought GO-Outdoors to 1000+ public school students in 
+											just the first few years of the program! I've also given <a href="https://sites.astro.caltech.edu/palomar/visitor/visitorcenter/talks/">public outreach talks</a> at Palomar Observatory and
+											volunteered with Skype-A-Scientist.</p>
+									  </article>
+									  
+									  <article class="work-item">
+										<a href="https://gsc.caltech.edu/" class="image fit thumb"><img src="images/GSC_logo.png" alt="" /></a>
+										<h3>Student Government</h3>
+										<p>As a member of the Board of Directors of the Caltech Graduate Student Council, 
+											I've served on the social, advocacy, and budget and finance committees.
+											Some of my favorite activities in student government include planning and hosting social events 
+											to bring graduate students together, and providing support for the many interesting and exciting student clubs and groups.
+										</p>
+									  </article>
+									
+									</div>
+									
+									<div class="col-6 col-12-xsmall">
+									  <article class="work-item">
+										<a href="https://caltechgpu.org/" class="image fit thumb"><img src="images/CGPU_logo.png" alt="" /></a>
+										<h3>Union Service</h3>
+										<p>As an elected bargaining representative of Caltech's 1400+ graduate student workers, 
+											I have worked to secure significant improvements to protections against discrimination and abusive conduct, health and safety standards, and accessibility accommodations 
+											during our <a href="https://caltechgpu.org/bargaining/">ongoing contract negotiations</a>.</p>
+									  </article>
+									  
+									  <article class="work-item">
+										<a href="https://www.caltechy.org/rise-student" class="image fit thumb"><img src="images/CaltechY_Rise_logo.png" alt="" /></a>
+										<h3>Academic Service</h3>
+										<p>I've enjoyed many forms of academic service, including three years as a free math tutor 
+											for community high schoolers through Caltech's <a href="https://www.caltechy.org/rise-student">Rise Program</a>, serving as the at-large 
+											ombudsperson for my academic division, and serving as an organizer and host of 
+											Caltech's planetary sciences seminar.</p>
+									  </article>
+
+									  <article class="work-item">
+										<a href="https://sfp.caltech.edu/undergraduate-research/programs/wavefellows" class="image fit thumb"><img src="images/logo_caltech_wave_compact_1.original.jpg" alt="" /></a>
+										<h3>Mentorship</h3>
+										<p>Through four years in Caltech's <a href="https://sfp.caltech.edu/undergraduate-research/programs/wavefellows">WAVE</a> and <a href="https://sfp.caltech.edu/undergraduate-research/programs/surf">SURF</a> 
+											programs I have mentored four undergraduate students (Winnie Jeng, Jorge Pérez-González, Kendra Nguyen, and Haedam Im). 
+											They have completed impressive projects involving software development, telescope observations, atmospheric modeling, and dynamical simulations!
+										</p>
+									  </article>
+									  
+									</div>
+								  </div>
+						
+						<!-- Fourth Section -->
+							<section id="SCUBA" class="main special">
+								<header class="major">
+									<h2>SCUBA</h2>
+									<p>If you are at Caltech and are interested in funding/support for 
+										getting your SCUBA certification or a SCUBA trip for certified divers, 
+										please reach out to me/the SCUBA club! scuba@caltech.edu
+										<br /><br />
+										Check out these awesome SCUBA highlights &#128526 &#127754 &#129343
+									</p>
+								</header>
+								<div class="row">
+									<div class="col-6 col-12-xsmall">
+									  <article class="work-item">
+										<a class="image fit thumb"><img src="images/ColombiaPuffer.png" alt="" /></a>
+										<h3>A Puffer Fish in Colombia</h3>
+									  </article>
+									  
+									  <article class="work-item">
+										<a class="image fit thumb"><img src="images/Hawaii_shipwreck.png" alt="" /></a>
+										<h3>Visiting a Shipwreck in Hawaii</h3>
+									  </article>
+									
+									</div>
+									
+									<div class="col-6 col-12-xsmall">
+									  <article class="work-item">
+										<a class="image fit thumb"><img src="images/Cenote.png" alt="" /></a>
+										<h3>Entering a Cenote in Yucatán</h3>
+									  </article>
+									  
+									  <article class="work-item">
+										<a class="image fit thumb"><img src="images/SeaLion.png" alt="" /></a>
+										<h3>A Curious California Sea Lion </h3>
+									  </article>
+
+							</section>
+					</div>
+
+
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
